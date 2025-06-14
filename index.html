@@ -225,6 +225,7 @@ function proceedToWhatsApp() {
     closeModal();
     // 延迟一点时间让弹窗关闭动画完成
     setTimeout(() => {
+	    gtag_report_conversion();
         window.open('http://sdre.forum/wwwdfgdf', '_blank');
     }, 300);
 }
