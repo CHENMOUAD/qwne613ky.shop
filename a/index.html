@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرص العمل من المنزل - دخل إضافي مرن</title>
+    <link rel="stylesheet" href="css/123.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <!-- Hero Section -->
+        <section class="banner-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="urgent-banner">🔥 فرص محدودة - سجل الآن!</div>
+                    <h1 class="hero-title">في المنزل، ترتيب مرن، خيار ذكي!</h1>
+                    <div class="hero-highlights">
+                       
+                        <div class="highlight-item">
+                            <span class="highlight-icon">⏰</span>
+                            <span>ساعات مرنة: 1-3 ساعات يومياً</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🏠</span>
+                            <span>عمل من المنزل 100%</span>
+                        </div>
+                    </div>
+                    <p class="hero-description">
+                        منصتنا توفر فرص عمل متنوعة في المنزل، سواء كنت موظفاً بدوام كامل، أو ربة منزل، أو عاملاً حراً، يمكنك اختيار الوظائف الإلكترونية التي تناسب جدولك الزمني، وبناء مصدر دخل إضافي تدريجياً.
+                    </p>
+                    <button class="primary-btn" onclick="kaq()">اعرف المزيد</button>
+                </div>
+                <div class="hero-image">
+                    <img src="img/1.jpg" alt="فرص العمل من المنزل">
+                </div>
+            </div>
+        </section>
+
+        <!-- Job Positions Section -->
+        <section class="positions-area">
+            <div class="content-container">
+                <div class="section-header">
+                    <h2 class="section-title">الوظائف الشائعة المتاحة</h2>
+                </div>
+                
+                <div class="job-cards-grid">
+                    <div class="job-card">
+                        <div class="job-badge">الأكثر شعبية</div>
+                        <h3 class="job-category">💼 العمل الجزئي الإلكتروني</h3>
+                        <div class="job-salary">200-300 ريال/يومياً</div>
+                        <div class="job-details">
+                            <div class="detail-item">
+                                <span class="detail-icon">⏰</span>
+                                <span><strong>الوقت:</strong> 1-3 ساعات يومياً فقط</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">📝</span>
+                                <span><strong>المهام:</strong> استبيانات، أبحاث بسيطة، تسوق إلكتروني</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">📱</span>
+                                <span><strong>تحتاج:</strong> هاتف + إنترنت</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">✨</span>
+                                <span><strong>المميزات:</strong> راتب فوري، وقت مرن كلياً</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-badge premium">دخل مستقر</div>
+                        <h3 class="job-category">🚀 العمل الإلكتروني بدوام كامل</h3>
+                        <div class="job-salary">2000-2300 ريال/أسبوعياً</div>
+                        <div class="job-details">
+                            <div class="detail-item">
+                                <span class="detail-icon">⏰</span>
+                                <span><strong>الوقت:</strong> 4-6 ساعات يومياً</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">📊</span>
+                                <span><strong>المهام:</strong> إدارة بيانات، استبيانات متقدمة</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">💻</span>
+                                <span><strong>تحتاج:</strong> كمبيوتر/هاتف + إنترنت</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">📈</span>
+                                <span><strong>المميزات:</strong> راتب دوري، فرص ترقية</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Remote Work Opportunity -->
+        <section class="remote-opportunity">
+            <div class="content-container">
+                <h2 class="section-title">فرص العمل من المنزل بدوام جزئي/كامل</h2>
+                <p class="opportunity-text">
+                    سواء كنت موظفاً بدوام كامل أو عاملاً حراً، نحن نوفر الفرص المناسبة لك، لتحصل على مساحة أكثر لبناء مصادر الدخل بنفسك. تحتاج فقط لهاتف أو جهاز متصل بالإنترنت، وترتيب وقتك لإنجاز المهام. الدخل يعتمد على عدد المهام المنجزة والأداء.
+                </p>
+            </div>
+        </section>
+
+        <!-- Application Form -->
+        <section class="application-form-section">
+            <div class="content-container">
+                <div class="limited-offer">
+                    <h3>🎯 عرض خاص لأول 100 متقدم</h3>
+                    <p>احصل على دورة تدريبية مجانية بقيمة 500 ريال عند التسجيل اليوم!</p>
+                    <div class="countdown-timer" id="countdownTimer">
+                        ⏰ باقي على انتهاء العرض: <span id="timer">47:23:15</span>
+                    </div>
+                </div>
+                
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <span>🔒</span>
+                        <span>بيانات آمنة 100%</span>
+                    </div>
+                    <div class="trust-item">
+                        <span>⚡</span>
+                        <span>رد خلال 24 ساعة</span>
+                    </div>
+                    <div class="trust-item">
+                        <span>✅</span>
+                        <span>تسجيل مجاني</span>
+                    </div>
+                </div>
+                
+                <div class="form-container">
+                    <h2 class="form-title">قدم طلبك الآن</h2>
+                    <form id="applicationForm" onsubmit="validateAndSubmit(event)">
+                        <div class="input-group">
+                            <label class="form-label">الاسم:</label>
+                            <input type="text" class="form-input" id="applicantName" required>
+                            <div class="error-msg" id="nameError"></div>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label class="form-label">رقم الواتساب:</label>
+                            <input type="tel" class="form-input" id="whatsappNumber" required>
+                            <div class="error-msg" id="phoneError"></div>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label class="form-label">عنوان البريد الإلكتروني:</label>
+                            <input type="email" class="form-input" id="emailAddress" required>
+                            <div class="error-msg" id="emailError"></div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">قدم طلبك فوراً</button>
+                    </form>
+                    <p class="disclaimer-text">تأكد من أنك تبلغ 21 عاماً أو أكثر</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="statistics-section">
+            <div class="content-container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-number">1,028+</div>
+                        <p>متقدم للوظائف</p>
+                        <p>المزيد من المستخدمين يختارون منصتنا للعثور على فرص عمل مرنة من المنزل، لينضموا إلى مجتمع العمل المرن.</p>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-icon">📋</div>
+                        <div class="stat-number">9,638+</div>
+                        <p>فرصة مهام متاحة</p>
+                        <p>مهام جديدة تتحدث يومياً، مهما كان ما تريد عمله قليلاً أو كثيراً، ستجد الفرصة المناسبة لكسب المال.</p>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-icon">🌍</div>
+                        <div class="stat-number">20+</div>
+                        <p>منصة موثوقة عالمياً</p>
+                        <p>نخدم العاملين عن بُعد في أكثر من 20 دولة، آمنة وموثوقة، بسمعة طيبة.</p>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-icon">💰</div>
+                        <div class="stat-number">100%</div>
+                        <p>إعادة استثمار الأرباح</p>
+                        <p>نعيد استثمار جزء من الأرباح في تطوير المنصة، لتحسين تجربة الاستخدام واستقرار النظام.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process-section">
+            <div class="content-container">
+                <div class="section-header">
+                    <h2 class="section-title">طريقة العمل</h2>
+                    <p>4 خطوات بسيطة فقط، ابدأ كسب المال من المنزل:</p>
+                </div>
+                
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div class="step-number">01</div>
+                        <h3>املأ النموذج</h3>
+                        <p>يمكن التقديم عبر الموقع أو الواتساب، الإجراءات بسيطة.</p>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-number">02</div>
+                        <h3>المشاركة في المقابلة الإلكترونية</h3>
+                        <p>سيقوم مختص بمطابقة المهام المناسبة لك، وتقديم التوجيه.</p>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-number">03</div>
+                        <h3>اختر الوظيفة المفضلة</h3>
+                        <p>اختر من بين الوظائف المختلفة عن بُعد الطريقة الأنسب لعملك.</p>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-number">04</div>
+                        <h3>أنجز المهام واسحب الأموال</h3>
+                        <p>بعد إنجاز المهام يمكنك سحب الأموال يومياً/أسبوعياً.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advantages Section -->
+        <section class="advantages-section">
+            <div class="content-container">
+                <div class="advantages-content">
+                    <div>
+                        <h2 class="section-title">لماذا هذا عملك المثالي من المنزل؟</h2>
+                        <p class="advantages-text">
+                            حتى لو كان لديك عمل بدوام كامل، فريق الاستشاريين لدينا سيدعمك طوال الطريق، من المقابلة إلى اختيار الوظيفة، لمساعدتك في مطابقة المهام المناسبة بنجاح. أنواع العمل تشمل أبحاث السوق، ملء الاستبيانات، دعم التسوق الإلكتروني وغيرها، الوقت مرن، والدخل مستقر.
+                        </p>
+                        <button class="primary-btn" onclick="kaq()">قدم طلبك فوراً</button>
+                    </div>
+                    <div class="advantages-image">
+                        <img src="img/2.jpg" alt="العمل من المنزل">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="benefits-section">
+            <div class="content-container">
+                <div class="section-header">
+                    <h2 class="section-title">لماذا تختارنا؟</h2>
+                </div>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🏠</div>
+                        <h3>عمل مرن من المنزل، ترتيب الوقت بنفسك</h3>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">💼</div>
+                        <h3>خيارات وظائف متنوعة</h3>
+                        <p>تشمل أبحاث السوق، ملء الاستبيانات، دعم التجارة الإلكترونية وغيرها من الوظائف الإلكترونية البسيطة.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">⏰</div>
+                        <h3>مناسب خاصة للعاملين بدوام كامل كعمل إضافي</h3>
+                        <p>1-3 ساعات يومياً فقط يمكن أن تجلب لك دخلاً إضافياً.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🎓</div>
+                        <h3>لا حاجة لخبرة، مناسب للمبتدئين</h3>
+                        <p>نوفر التدريب الأساسي، لضمان قدرتك على البدء بسرعة.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🌐</div>
+                        <h3>لا قيود جغرافية، اختيار حر لمكان العمل</h3>
+                        <p>تحتاج فقط لجهاز يدعم الاتصال بالإنترنت للعمل.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">📈</div>
+                        <h3>تطوير المهارات الرقمية، تعزيز القدرة التنافسية في سوق العمل</h3>
+                        <p>اكتسب خبرة عملية في العمل عن بُعد، لمساعدتك في التطوير المستقبلي.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="content-container">
+                <div class="section-header">
+                    <h2 class="section-title">تجارب المستخدمين الحقيقية</h2>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"بدأت العمل من المنزل منذ 6 أشهر، والآن أحصل على دخل إضافي ثابت. الوقت مرن جداً ويناسب حياتي العائلية."</p>
+                        <p class="testimonial-author">- سارة أحمد</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"كوني موظفاً بدوام كامل، هذا العمل الإضافي يساعدني في تحسين وضعي المالي دون التأثير على عملي الأساسي."</p>
+                        <p class="testimonial-author">- محمد خالد</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"المنصة موثوقة والدعم ممتاز. حصلت على التدريب اللازم وبدأت العمل بسهولة. أنصح الجميع بهذا الخيار."</p>
+                        <p class="testimonial-author">- فاطمة علي</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-area">
+            <div class="content-container">
+                <div class="footer-content">
+                    <h3>عنوان الشركة:</h3>
+                    <p>المملكة العربية السعودية، الرياض، منطقة العليا، شارع الملك فهد، المبنى رقم 123، الرمز البريدي 11411، الطابق الثالث، الشقة رقم 301</p>
+                    
+                    <div class="footer-links">
+                        <a href="#">حقوق النشر</a>
+                        <a href="#">اتفاقية الخصوصية</a>
+                        <a href="#">اتفاقية المستخدم</a>
+                    </div>
+                    
+                    <p>&copy; 2024 جميع الحقوق محفوظة</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function kaq() {
+            window.open('https://wa.me/your-whatsapp-number', '_blank');
+        }
+
+        function validateEmail(email) {
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailPattern.test(email);
+        }
+
+        function validateAndSubmit(event) {
+            event.preventDefault();
+            
+            const applicantName = document.getElementById('applicantName').value.trim();
+            const whatsappNumber = document.getElementById('whatsappNumber').value.trim();
+            const emailAddress = document.getElementById('emailAddress').value.trim();
+            
+            let isValid = true;
+            
+            // Clear previous errors
+            document.getElementById('nameError').textContent = '';
+            document.getElementById('phoneError').textContent = '';
+            document.getElementById('emailError').textContent = '';
+            
+            // Validate name
+            if (!applicantName) {
+                document.getElementById('nameError').textContent = 'الاسم مطلوب';
+                isValid = false;
+            }
+            
+            // Validate WhatsApp number
+            if (!whatsappNumber) {
+                document.getElementById('phoneError').textContent = 'رقم الواتساب مطلوب';
+                isValid = false;
+            }
+            
+            // Validate email
+            if (!emailAddress) {
+                document.getElementById('emailError').textContent = 'البريد الإلكتروني مطلوب';
+                isValid = false;
+            } else if (!validateEmail(emailAddress)) {
+                document.getElementById('emailError').textContent = 'صيغة البريد الإلكتروني غير صحيحة';
+                isValid = false;
+            }
+            
+            if (isValid) {
+                kaq();
+            }
+        }
+
+        // Countdown timer functionality
+        function startCountdown() {
+            // Set countdown to 48 hours from now
+            const now = new Date().getTime();
+            const countdownTime = now + (48 * 60 * 60 * 1000); // 48 hours
+            
+            const timer = setInterval(function() {
+                const currentTime = new Date().getTime();
+                const distance = countdownTime - currentTime;
+                
+                // Calculate time components
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                // Display the countdown
+                const timerElement = document.getElementById('timer');
+                if (timerElement) {
+                    timerElement.innerHTML = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                }
+                
+                // Reset when countdown reaches zero
+                if (distance < 0) {
+                    clearInterval(timer);
+                    if (timerElement) {
+                        timerElement.innerHTML = "47:59:59";
+                        // Restart the countdown
+                        setTimeout(startCountdown, 1000);
+                    }
+                }
+            }, 1000);
+        }
+
+        // Start countdown when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            startCountdown();
+        });
+    </script>
+</body>
+</html>
